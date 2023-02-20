@@ -1,0 +1,29 @@
+ALGORITHM Longueur;
+VAR
+  longuer :=INTEGER;
+  nb_mots:=INTEGER;
+    nb_voyelles :=INTEGER;
+BEGIN
+    // Initialisation des variables
+    longueur = 0;
+    nb_mots = 0; 
+    nb_voyelles = 0;
+
+    // Incrémenter la longueur de la phrase
+        longueur = longueur + 1
+
+        // Vérifier si le caractère courant est un espace
+        IF (caractere est un espace) THEN
+           nb_mots = nb_mots + 1
+        END_IF 
+
+ // si le caractère courant est une voyelle
+        IF (caractere est une voyelle) THEN
+            nb_voyelles = nb_voyelles + 1
+        END_IF 
+           
+ //Affichage des résultats
+    write "Longueur de la phrase : " + longueur
+    write "Nombre de mots dans la phrase : " + nb_mots
+    write "Nombre de voyelles dans la phrase : " + nb_voyelles
+END
